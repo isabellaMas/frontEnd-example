@@ -1,0 +1,16 @@
+<h2>Your Classes:</h2>
+<table width="50%" class="center">
+  <tr>
+    <th>Name</th>
+    <th>Time</th>
+    <th>Days</th>
+  </tr>
+  {{#each c as |cl|}}
+  <tr>
+	 <td>{{cl.name}}</td>
+    <td>{{cl.time}}</td>
+    <td>{{cl.days}}</td>
+  </tr>
+  {{/each}}
+
+</table>

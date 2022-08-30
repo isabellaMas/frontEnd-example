@@ -1,0 +1,37 @@
+<h2>Add a class: <h2>
+<form action="/addClass" method="POST">
+
+<div>
+<label>Class Name: </label> 
+<input type="string" name="name">
+</div>
+
+
+
+<div>
+<label for="time">What time is this class? :</label>
+<input type="time" id="time" name="cTime" required>
+</div>
+
+<p>What days of the week do you have this class? :</p>
+
+  <input type="checkbox" id="Monday" name="Monday">
+  <label for="Monday">Monday</label>
+
+  <input type="checkbox" id="Tuesday" name="Tuesday">
+  <label for="Tuesday">Tuesday</label>
+
+  <input type="checkbox" id="Wednesday" name="Wednesday">
+  <label for="Wednesday">Wednesday</label>
+
+  <input type="checkbox" id="Thursday" name="Thursday">
+  <label for="Thursday">Thursday</label>
+
+  <input type="checkbox" id="Friday" name="Friday">
+  <label for="Friday">Friday</label>
+
+<div>
+<input class="button" type="submit" value="Add Class">
+</div>
+
+</form>
