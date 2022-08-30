@@ -1,0 +1,26 @@
+<h2>Your Study Notes:</h2>
+<form action="/study" method="POST">
+<table width="50%" class="center">
+  <tr>
+    <th>Remove from study?</th>
+    <th>Title</th>
+    <th>Class</th>
+    <th>Note</th>
+  </tr>
+  {{#each n as |no|}}
+  <tr>
+    <td><input type="checkbox" id="study" name={{no.noteT}}/> study</td>
+   <td>{{no.noteT}}</td>
+    <td>{{no.noteC}}</td>
+    <td>{{no.bodyOfNotes}}</td>
+  </tr>
+  {{/each}}
+
+</table>
+
+<div>
+  <a href = 'data:text/plain;charset=utf-8,{{dat}}' class="link" download = "study.txt" type="submit" name="download" >Download</a>
+<input class="button" type="submit" value="Remove Selected Notes From Study Tab">
+</div>
+</form>
+<div>If downloaded your notes can be found in the file study.txt</div>

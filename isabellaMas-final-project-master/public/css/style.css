@@ -1,0 +1,91 @@
+body{
+	background-image: url('back.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+div{
+  text-align: center;
+}
+.button{
+  margin: 5px;
+  background-color: #3498DB;
+  color: white;
+  box-shadow: 2px 2px 5px grey;
+}
+.link{
+  margin: 5px;
+  background-color: #3498DB;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color:  #515A5A;
+  box-shadow: 2px 2px 5px grey;
+}
+h1 {
+	display: inline-block;
+	font-family: "American Typewriter", serif;
+	font-size: 5em;
+
+}
+h2{
+	display: block;
+	text-align: center;
+	color: #515A5A;
+}
+h3{
+
+  color: #515A5A;
+  font-size: 15px;
+}
+form{
+	background: #AED6F1;
+	border-radius: 4pt;
+	 color: #515A5A;
+}
+ table{
+ 	background: #AED6F1;
+ 	font-size: 1.35em;
+ 	text-align: center;
+ 	color: #515A5A;
+ }
+ .center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #85C1E9 ;
+  padding: 20px 10px;
+  color: #616A6B;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  color: #616A6B;
+}
+
+.header a.logo {
+  font-size: 4em;
+  font-weight: bold;
+  color: #616A6B;
+  font-family: "American Typewriter", serif;
+}
+
+.header a:hover {
+  background-color: #3498DB;
+  color: #616A6B;
+}
+
+
+.header-right {
+  float: right;
+}
